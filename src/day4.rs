@@ -39,6 +39,7 @@ pub fn solve_4a() {
     }
 }
 
+#[allow(dead_code)]
 pub fn solve_4b() {
     if let Ok(lines) = utils::read_lines("C:/rep/adventofcode2023/src/inputs/input4.txt") {
         let mut result: Vec<(u32, usize)> = lines
