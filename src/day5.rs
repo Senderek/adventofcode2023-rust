@@ -88,6 +88,7 @@ pub fn solve_5a() {
     println!("Result: {}", seeds.iter().min().unwrap());
 }
 
+#[allow(dead_code)]
 pub fn solve_5b() {
     let lines = utils::read_lines("C:/rep/adventofcode2023/src/inputs/input5.txt").unwrap();
     let mut i: usize = 0;
