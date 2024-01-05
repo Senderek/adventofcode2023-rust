@@ -1,6 +1,7 @@
-mod two;
+mod day14;
 mod utils;
 
 fn main() {
-    two::part2();
+    println!("");
+    day14::solve_14b();
 }
