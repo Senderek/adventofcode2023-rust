@@ -2,6 +2,7 @@ use crate::utils;
 
 const EXPANSION: usize = 1000000 - 1;
 
+#[allow(dead_code)]
 pub fn solve_11() {
     let lines = utils::read_lines("C:/rep/adventofcode2023/src/inputs/input11.txt").unwrap();
     let mut galaxies: Vec<(usize, usize)> = [].to_vec();

@@ -1,5 +1,6 @@
 use crate::utils;
 
+#[allow(dead_code)]
 pub fn solve_10a() {
     let lines = utils::read_lines("C:/rep/adventofcode2023/src/inputs/input10_demo.txt").unwrap();
     let mut s_i: usize = 0;
