@@ -8,6 +8,7 @@ version = "0.1.0"
 dependencies = [
  "itertools",
  "regex",
+ "utf8-chars",
 ]
 
 [[package]]
@@ -18,6 +19,12 @@ checksum = "b2969dcb958b36655471fc61f7e416fa76033bdd4bfed0678d8fee1e2d07a1f0"
 dependencies = [
  "memchr",
 ]
+
+[[package]]
+name = "arrayvec"
+version = "0.7.4"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "96d30a06541fbafbc7f82ed10c06164cfbd2c401138f6addd8404629c4b16711"
 
 [[package]]
 name = "either"
@@ -68,3 +75,12 @@ name = "regex-syntax"
 version = "0.8.2"
 source = "registry+https://github.com/rust-lang/crates.io-index"
 checksum = "c08c74e62047bb2de4ff487b251e4a92e24f48745648451635cec7d591162d9f"
+
+[[package]]
+name = "utf8-chars"
+version = "3.0.1"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "08465e4e09f9ac32d8bc0967565046ec27a9078f82fe738da658ccd689c2c277"
+dependencies = [
+ "arrayvec",
+]

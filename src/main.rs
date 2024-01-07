@@ -1,7 +1,7 @@
-mod day14;
+mod day13;
 mod utils;
 
 fn main() {
     println!("");
-    day14::solve_14b();
+    day13::solve_13();
 }
